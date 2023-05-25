@@ -1,0 +1,8 @@
+user_registration.user_registration:
+  path: '/user-registration'
+  defaults:
+    _form: '\Drupal\user_registration\Form\RegistrationForm'
+    _title: 'User Registration Form'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'
